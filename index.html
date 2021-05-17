@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Shraddha's Profile">
+    <meta name="keywords" content="HTML, CSS, Portfolio, Profile">
+    <meta name="author" content="Shraddha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Shraddha's Profile</title>
+  </head>
+<body>
+  <div class="page">
+
+    <!-- header of the webpage -->
+    <header class="header">
+      <!-- main navigation links of the webpage -->
+      <nav class="menu menu_place_header">
+        <ul class="menu__list menu__list_place_header">
+          <li class="menu__item menu__item_place_header">
+            <a class="menu__link menu__link_place_header" href="#about-me">Who I am</a>
+          </li>
+          <li class="menu__item menu__item_place_header">
+            <a class="menu__link menu__link_place_header" href="#quote">What I say</a>
+          </li>
+          <li class="menu__item menu__item_place_header">
+            <a class="menu__link menu__link_place_header" href="#learnings">What I'm learning</a>
+          </li>
+          <li class="menu__item menu__item_place_header">
+            <a class="menu__link menu__link_place_header" href="#contact-me">Talk to Me</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__profile">
+        <img class="header__profile-pic" src="images/profile-pic.jpeg" alt="Shraddha's profile picture">
+        <h1 class="header__profile-name">Hey! I am Shraddha!</h1>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- quote section of the webpage -->
+      <section id="quote" class="quote">
+        <blockquote class="quote__block" cite="https://www.biblegateway.com/passage/?search=Ecclesiastes%209%3A11&version=NIV">
+          <p class="quote__text">The race is not to the swift, nor the battle to the strong</p>
+          <p class="quote__citation"><cite>King Solomom, Ecclesiastes</cite></p>
+        </blockquote>
+      </section>
+
+      <!-- section describing about myself -->
+      <section id="about-me" class="about-me">
+        <img class="about-me__picture" src="images/working-on-laptop.jpeg" alt="Shraddha's picture in which she is learning.">
+        <div class="about-me__content">
+          <h2 class="about-me__heading">Who I Am</h2>
+          <div class="about-me__para">
+            <p class="about-me__para_style_bold">
+              My name is Shraddha. I am currently a student at Practicum by Yandex, learning to become a web developer.
+            </p>
+            <p class="about-me__para_style_normal">
+              I am currently a homemaker interested in exploring the field of web development. Having worked as a Data Warehouse Engineer for close to 5 years, felt being limited by business standards and scopes to implement any of my creative ideas, so I always nurtured a keen interest to Web Development as it was alluring, captivating and always one that needs a creative touch! I certainly believe that it's one of the ideal escape routes and a perfect excuse for me to reignite my love for art alongside painting the web with my ideas and colors, and also getting paid for it makes it a worthwhile effort, and I love it!!
+            </p>
+            <p class="about-me__para_style_normal">
+              I am a beginner in HTML, CSS and Javascript and understand that learning only the techniques is not sufficient. I have always wanted a guidance and support through which I can mature in approaching the problem and having a clear understanding of why I am doing what I am doing. While self-learning, I managed to learn in bits and pieces but there was no cohesiveness. I am grateful for Practicum's support system (tutors, reviewers and fellow students) and looking forward to learn together.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- section listing what I have learnt till now -->
+      <section id="learnings" class="learnings">
+        <h2 class="learnings__heading">What I'm Learning</h2>
+        <div class="learnings__content">
+          <p class="learnings__topic learnings__topic_completed">Basics of HTML</p>
+          <p class="learnings__topic learnings__topic_completed">Advanced HTML & CSS</p>
+          <p class="learnings__topic">Adaptive Web Design and Working with Layouts</p>
+          <p class="learnings__topic">Basic Javascript and Working with the Browser</p>
+          <p class="learnings__topic">Applied Javascript</p>
+          <p class="learnings__topic">Creating an Interface with React</p>
+          <p class="learnings__topic">Back-End Basics for Web Developers</p>
+          <p class="learnings__topic">Final Project</p>
+        </div>
+      </section>
+
+      <!-- section where you can contact me -->
+      <section id="contact-me" class="contact-me">
+        <h2 class="contact-me__heading">Talk to me</h2>
+        <form class="contact-me__form">
+          <input class="contact-me__input contact-me__input_color_black" name="vistor-name" type="text" placeholder="name">
+          <input class="contact-me__input contact-me__input_color_white" name="visitor-email" type="email" placeholder="shraddha@gmail.com" disabled>
+          <textarea class="contact-me__textarea" name="visitor-message" rows="5" cols="33">message</textarea>
+          <button class="contact-me__send-btn" type="submit">send</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- footer of the webpage -->
+    <footer class="footer">
+      <nav class="menu menu_place_footer">
+        <ul class="menu__list menu__list_place_footer">
+          <li class="menu__item menu__item_place_footer">
+            <a class="menu__link menu__link_place_footer" href="#about-me">Who I am</a>
+          </li>
+          <li class="menu__item menu__item_place_footer">
+            <a class="menu__link menu__link_place_footer" href="#quote">What I say</a>
+          </li>
+          <li class="menu__item menu__item_place_footer">
+            <a class="menu__link menu__link_place_footer" href="#learnings">What I'm learning</a>
+          </li>
+          <li class="menu__item menu__item_place_footer">
+            <a class="menu__link menu__link_place_footer" href="#contact-me">Talk to Me</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>
