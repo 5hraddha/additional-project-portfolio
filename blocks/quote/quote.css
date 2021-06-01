@@ -1,0 +1,24 @@
+.quote {
+  margin: 0;
+  padding: 0;
+  min-height: 250px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.quote::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(../../images/quote-icon.png);
+  background-size: 50%;
+  background-position: -120px -150px;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}

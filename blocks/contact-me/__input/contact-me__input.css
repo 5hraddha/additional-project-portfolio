@@ -1,0 +1,10 @@
+.contact-me__input {
+  margin: 0;
+  padding: 0 10px;
+  height: 50px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  background-color: rgba(229, 229, 229, 0.5);
+  border: 0;
+}

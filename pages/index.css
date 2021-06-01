@@ -1,0 +1,58 @@
+/* stylesheet from the external vendor */
+@import url(../vendor/normalize.css);
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+/* stylesheets for the block - about-me */
+@import url(../blocks/about-me/about-me.css);
+@import url(../blocks/about-me/__content/about-me__content.css);
+@import url(../blocks/about-me/__heading/about-me__heading.css);
+@import url(../blocks/about-me/__para/about-me__para.css);
+@import url(../blocks/about-me/__para/_style/about-me__para_style_bold.css);
+@import url(../blocks/about-me/__para/_style/about-me__para_style_italic.css);
+@import url(../blocks/about-me/__paras/about-me__paras.css);
+@import url(../blocks/about-me/__picture/about-me__picture.css);
+
+/* stylesheets for the block - contact-me */
+@import url(../blocks/contact-me/contact-me.css);
+@import url(../blocks/contact-me/__form/contact-me__form.css);
+@import url(../blocks/contact-me/__heading/contact-me__heading.css);
+@import url(../blocks/contact-me/__input/contact-me__input.css);
+@import url(../blocks/contact-me/__input/_color/contact-me__input_color_black.css);
+@import url(../blocks/contact-me/__input/_color/contact-me__input_color_white.css);
+@import url(../blocks/contact-me/__send-btn/contact-me__send-btn.css);
+@import url(../blocks/contact-me/__textarea/contact-me__textarea.css);
+
+/* stylesheets for the block - footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+
+/* stylesheets for the block - header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__profile-name/header__profile-name.css);
+@import url(../blocks/header/__profile-pic/header__profile-pic.css);
+@import url(../blocks/header/__profile/header__profile.css);
+
+/* stylesheets for the block - learnings */
+@import url(../blocks/learnings/learnings.css);
+@import url(../blocks/learnings/__content/learnings__content.css);
+@import url(../blocks/learnings/__heading/learnings__heading.css);
+@import url(../blocks/learnings/__topic/learnings__topic.css);
+@import url(../blocks/learnings/__topic/_completed/learnings__topic_completed.css);
+
+/* stylesheets for the block - menu */
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__list/menu__list.css);
+
+/* stylesheets for the block - page */
+@import url(../blocks/page/page.css);
+
+/* stylesheets for the block - quote */
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__block/quote__block.css);
+@import url(../blocks/quote/__citation/quote__citation.css);
+@import url(../blocks/quote/__text/quote__text.css);

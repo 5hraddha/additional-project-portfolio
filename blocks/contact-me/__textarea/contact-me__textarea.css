@@ -1,0 +1,12 @@
+.contact-me__textarea {
+  margin: 0;
+  padding: 15px 10px;
+  height: 250px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  background-color:  #e5e5e5;
+  opacity: 0.5;
+  border: 0;
+  resize: none;
+}

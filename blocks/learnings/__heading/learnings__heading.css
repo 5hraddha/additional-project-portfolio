@@ -1,0 +1,14 @@
+.learnings__heading {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -18px;
+  left: 95px;
+  transform-origin: left top;
+  transform: rotate(90deg);
+  color: #e5e5e5;
+  opacity: 0.5;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.2;
+}

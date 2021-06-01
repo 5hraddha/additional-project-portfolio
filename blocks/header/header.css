@@ -1,0 +1,8 @@
+.header {
+  margin: 0;
+  padding: 0;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #292929;
+}

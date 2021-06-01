@@ -1,0 +1,18 @@
+.contact-me__send-btn {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1.2;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  text-transform: lowercase;
+  transition: background-color .2s;
+}
+
+.contact-me__send-btn:hover {
+  background-color: #fff;
+  color: #000;
+}

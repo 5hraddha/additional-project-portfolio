@@ -1,0 +1,8 @@
+.learnings__content {
+  margin: 0;
+  padding: 0;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

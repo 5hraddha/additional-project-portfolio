@@ -1,0 +1,8 @@
+.contact-me__input_color_white {
+  color:rgba(255, 255, 255, 1);
+}
+
+.contact-me__input_color_white::placeholder {
+  color:rgba(255, 255, 255, 1);
+  opacity: 1;
+}

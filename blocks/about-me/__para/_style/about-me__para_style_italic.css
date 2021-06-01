@@ -1,0 +1,8 @@
+.about-me__para_style_italic {
+  padding: 40px 0 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+}

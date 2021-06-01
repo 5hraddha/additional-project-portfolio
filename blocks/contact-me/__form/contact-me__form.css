@@ -1,0 +1,9 @@
+.contact-me__form {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

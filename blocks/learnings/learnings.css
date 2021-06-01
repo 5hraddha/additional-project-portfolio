@@ -1,0 +1,12 @@
+.learnings {
+  margin: 0;
+  padding: 0;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #c4c4c4;
+  z-index: 1;
+  overflow: hidden;
+}

@@ -1,0 +1,9 @@
+.header__profile-name {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #808080;
+}
